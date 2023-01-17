@@ -36,4 +36,8 @@ if (youngster.includes(age))
         console.log(firstName + " trinkt Saft.");
         else if (teens.includes(age))
         console.log(firstName + " trinkt Cola.");
-        else console.log(firstName + " trinkt Wein.");
+        else if (age >= 120)
+        console.log("Methusalem verschüttet mehr als er trinkt.");
+        else
+        console.log("Die Eingabe ist ungültig.");
+        
