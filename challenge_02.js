@@ -16,13 +16,19 @@ Alter 13-17 // Cola
 
 /* Getränke-Challenge */
 
+/* Variablen und Konstante */
+
 let firstName,age;
 const youngster = ["1","2","3","4","5"];
 const kids = ["6","7","8","9","10","11","12"];
 const teens = ["13","14","15","16","17"];
 
+/* Eingaben */
+
 firstName = prompt("Bitte Vornamen eingeben; ");
 age = prompt("Bitte Alter eingeben: ");
+
+/* Abfragen und Ausgaben */
 
 if (youngster.includes(age))
         console.log(firstName + " trinkt Milch.");
